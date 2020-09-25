@@ -10,6 +10,10 @@
   overflow: auto;
   padding: 0px 20px;
 }
+.clr {
+  float: none;
+  clear: both;
+}
 .lead {
   font-size: 40px;
   padding-bottom: 20px;
@@ -33,11 +37,12 @@
   color: #333;
 }
 .bg-dark {
-  background: #333;
-  color: #f4f4f4;
+  background: rgb(66, 31, 38);
+  color: turquoise;
 }
+
 .bg-light {
-  background: #f4f4f4;
+  background: turquoise;
   color: #333;
 }
 .bg-primary {
@@ -140,4 +145,19 @@ p {
 }
 #home-info .info-content {
   padding: 30px;
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
