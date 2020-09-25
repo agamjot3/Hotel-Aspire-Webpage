@@ -71,6 +71,7 @@ p {
 }
 #navbar a {
   color: #fff;
+  position: sticky;
 }
 #navbar h1 {
   float: left;
@@ -93,14 +94,13 @@ p {
   text-align: center;
 }
 #navbar ul li:hover {
-  background: brown;
   color: #09ca66;
   text-decoration-color: cornflowerblue;
   border-top: 5px solid lightcoral;
 }
 #navbar ul li a.current {
-  border-top: 3px solid #f4f4f4;
-  box-shadow: lightgrey;
+  border-bottom: 5px solid lightseagreen;
+  color: #83d0a8;
 }
 #showcase {
   background: url(../img/pexels-pixabay-262047.jpg) center center/cover;
