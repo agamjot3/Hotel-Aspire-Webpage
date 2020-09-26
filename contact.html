@@ -7,7 +7,7 @@
       name="description"
       content="Welcome To The Most Luxurious Hotel In New Jersey"
     />
-    <meta name="keywors" content="about,hotel, new jersey, luxury" />
+    <meta name="keywors" content="about,hotel, new jersey,contact, luxury" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Hotel Aspire | Contact</title>
   </head>
@@ -23,7 +23,49 @@
       </div>
     </nav>
   </header>
-  <body></body>
+  <body>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+        <p>Please Fill Out The Form So We Can Get In Touch With You.</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Leave a Message</label>
+            <textarea name="message" id="message">Leave a Message</textarea>
+          </div>
+          <button class="btn" type="submit">Submit The Form</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>3 Tower Center Blvd, East Brunswick, NJ 08816, United States</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-utensils fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>(+1) (732)-(828-2000)</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-dumbbell fa-3x"></i>
+          <h3>Email Address</h3>
+          <p>admin@hotelaspire.net</p>
+        </div>
+      </div>
+    </section>
+  </body>
   <footer id="main-footer">
     <p>Hotel Aspire | &copy; 2020, All Rights Reserved.</p>
   </footer>
