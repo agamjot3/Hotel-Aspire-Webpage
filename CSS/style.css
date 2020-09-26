@@ -49,6 +49,18 @@
   background: rgb(152, 152, 10);
   color: #f4f4f4;
 }
+.py-1 {
+  padding: 10px;
+}
+.py-2 {
+  padding: 20px;
+}
+.py-3 {
+  padding: 30px;
+}
+.l-heading {
+  font-size: 40px;
+}
 
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -57,6 +69,10 @@ body {
   font-style: inherit;
   line-height: 2em;
 }
+.next-line {
+  text-align: center;
+}
+
 a {
   color: #333;
   text-decoration: none;
@@ -155,6 +171,51 @@ p {
 .box i {
   margin-bottom: 10px;
 }
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+#test {
+  height: 700px;
+  background: url() no-repeat center center/cover;
+  padding-top: 100px;
+}
+#test img {
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+}
+#test .testi img {
+  height: 150px;
+}
+#test h2 {
+  color: #333;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#test .testi p {
+  height: 120px;
+}
+#test .testi {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
 #main-footer {
   text-align: center;
   background: #444;
