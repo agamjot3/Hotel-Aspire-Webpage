@@ -118,6 +118,8 @@ p {
   color: #09ca66;
   text-decoration-color: cornflowerblue;
   border-top: 5px solid lightcoral;
+  border-left: 1px solid rgb(196, 163, 163);
+  border-right: 1px solid rgb(196, 163, 163);
 }
 #navbar ul li a.current {
   border-bottom: 5px solid lightseagreen;
@@ -246,4 +248,41 @@ p {
   background: #444;
   color: #fff;
   padding: 20px;
+}
+@media (max-width: 768px) {
+  .box {
+    float: none;
+    width: 100%;
+  }
+  #navbar .logo {
+    float: none;
+    text-align: center;
+  }
+  #navbar ul,
+  #navbar ul li {
+    float: none;
+  }
+  #navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 2px;
+  }
+  #home-info .info-img {
+    display: none;
+  }
+  #home-info .info-content {
+    float: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  #about-info .info-left h1{
+    text-align: center;
+  }
+  #about-info .info-right img{
+    display: none;
+  }
+  #about-info .info-left {
+    float: none;
+    width: 100%;
+    min-height: 100%;
 }
