@@ -8,7 +8,7 @@
     <meta name="keywors" content="about,hotel, new jersey,contact, luxury" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <title>Hotel Aspire | Contact</title>
+    <title>Hotel Aspire | Login</title>
 </head>
 <header>
     <nav id="navbar">
@@ -28,22 +28,20 @@
 <body>
     <section id="contact-form" class="py-3">
         <div class="container">
-            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
-            <p>Please Fill Out The Form So We Can Get In Touch With You.</p>
+            <h1 class="l-heading"><span class="text-primary">Log</span> In</h1>
+            <p>Please enter your Login Id & Password to continue.</p>
             <form action="process.php">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
-                </div>
+
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" placeholder="Please enter your Email ID" />
                 </div>
                 <div class="form-group">
-                    <label for="message">Leave a Message</label>
-                    <textarea name="message" id="message">Leave a Message</textarea>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Please enter your Password." />
                 </div>
-                <button class="btn" type="submit">Submit The Form</button>
+
+                <button class="btn" type="submit">Login</button>
             </form>
         </div>
     </section>
